@@ -1,2 +1,2 @@
-To view live demo.\
+#Live demo.\
 Visit [https://shafayat.net/jsClock/](https://shafayat.net/jsClock/) to view it in your browser.
