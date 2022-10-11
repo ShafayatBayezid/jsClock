@@ -88,3 +88,41 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
+/* git area */
+.git-area {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+  transition: all 1s ease-in-out; 
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.git-area span{
+  opacity: 0;
+  margin-right: -30px;
+  font-weight: 600;
+  font-size: 22px;
+  transition: all .3s ease-in-out;
+  color: #764ba2;
+}
+
+
+.git-area:hover span {
+  opacity: 1;
+  margin-right: 8px;
+}
+
+
+.git-area .git-logo {
+  width: 50px;
+  height: 50px;
+}
+.git-logo img {
+  width: 100%;
+}
